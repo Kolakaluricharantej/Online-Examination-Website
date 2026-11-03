@@ -18,16 +18,16 @@ A simple Online Examination Website built using **HTML, CSS, JavaScript and Java
 ## How to Run
 
 ### Windows
-Open Command Prompt/PowerShell inside the project folder:
+Open PowerShell inside the project folder:
 
 ```powershell
-javac -d out src/OnlineExamServer.java
+javac -d out src\OnlineExamServer.java
 java -cp out OnlineExamServer
 ```
 
 Then open:
 
-`http://localhost:8080`
+`http://localhost:8081`
 
 ### Login
 Use any non-empty student name and password.
