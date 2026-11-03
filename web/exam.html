@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Examination - Exam</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="topbar">
+        <div class="brand">EXAM<span>PRO</span></div>
+        <div class="student-info">Student: <b id="studentDisplay"></b></div>
+        <div class="timer-box">Time Left: <span id="timer">10:00</span></div>
+    </header>
+
+    <main class="exam-container">
+        <div class="exam-heading">
+            <div>
+                <h1>Java & Web Technology Examination</h1>
+                <p>Select one answer for every question.</p>
+            </div>
+            <div id="progress" class="progress">0 / 10 answered</div>
+        </div>
+
+        <form id="examForm">
+            <div id="questions"></div>
+            <button id="submitBtn" class="submit-btn" type="submit">Submit Examination</button>
+        </form>
+    </main>
+
+    <div id="toast" class="toast"></div>
+    <script src="script.js"></script>
+</body>
+</html>

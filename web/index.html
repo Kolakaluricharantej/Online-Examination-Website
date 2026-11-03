@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Examination - Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="login-page">
+    <div class="login-card">
+        <div class="logo">EXAM<span>PRO</span></div>
+        <h1>Online Examination</h1>
+        <p class="subtitle">Student Login</p>
+
+        <form id="loginForm">
+            <label for="studentName">Student Name</label>
+            <input id="studentName" type="text" placeholder="Enter your name" required>
+
+            <label for="password">Password</label>
+            <input id="password" type="password" placeholder="Enter password" required>
+
+            <p id="loginError" class="error"></p>
+            <button class="primary-btn" type="submit">Login & Start Exam</button>
+        </form>
+
+        <div class="login-note">Demo password: <b>1234</b></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
